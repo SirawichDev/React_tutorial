@@ -14,9 +14,9 @@ class App extends Component {
 }
     return(
 
-          <div style={relativess}>d
+          <div style={relativess}>
             <Header/>
-            <Content/>
+            <Content title="หัวข้อ" name="Sirawich Voungchuy" Spell="Sawasdee"/>
             <Footer/>
             <Butt/>
           </div>

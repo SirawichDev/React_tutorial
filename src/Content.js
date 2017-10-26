@@ -4,7 +4,10 @@ class Content extends Component{
   render(){
     return(
           <div>
-            <h3> Miew Miew </h3>
+            <h3> Sirawich Lib </h3>
+            <p>{this.props.title}</p>
+            <p>{this.props.name}</p>
+            <p>{this.props.Spell}</p>
           </div>
     );
   }
