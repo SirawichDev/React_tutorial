@@ -9,12 +9,7 @@ class Header extends Component{
         };
       }
   render(){
-    setTimeout(()=>{
-          this.setState({name:"Like"});
-        },2000);
-    setInterval(()=>{
-      this.setState({count:this.state.count+1});
-    },1000);
+
     return(
           <div>
             <h1> Hello ME </h1>
